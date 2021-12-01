@@ -1,0 +1,17 @@
+.Where-togo{
+    padding: 20px 10px;
+    background: blueviolet;
+}
+.form-area h3 {
+    color:white;
+    font-size:24px;
+    font-weight:400;
+    margin-bottom:0;
+}
+.search-form{
+    display:flex;
+}
+.input-field {
+    width :220px;
+    margin: 10px
+}

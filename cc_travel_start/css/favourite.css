@@ -1,39 +1,40 @@
   .favourite{
-    display: flex;
-    flex:70%;
-    /* justify-content:space-evenly; */
+    position:relative;
+    display:flex;
     gap:5%;
-    padding:16px;
-    align-content: center;
-   padding:10px;
+    /* flex-wrap:wrap; */
     color:white;
-
+    justify-content:space-evenly
   }
   .favourite-bg-1 {
     background-image: url(../img/favourites/indonesia.png);
-    flex:30%;
-    width:500px;
-    height:150px;
-    background-position: center;
-    padding:10px;
-    
+    display:flex;
+    width:25%;
+    height:50%;
+    background-position: center center; 
+    margin : 20px;
+    padding:5px;
     
   }
   .favourite-bg-2 {
     background-image: url(../img/favourites/australia.png);
-    flex:30%;
-    width:500px;
-    height: 150px;
-    background-position: center;
+    display:flex;
+    width:50%;
+    height: auto;
+    background-position:center center;
+    margin:20px;
+    padding:5px;
   }
   
   
   .favourite-bg-3 {
     background-image: url(../img/favourites/switzerland.png);
-    flex:30%;
-    width:500px;
-    height: 150px;
-    background-position: center;
+    display:flex;
+    width:50%;
+    height: auto;
+    background-position: center center;
+    margin:20px;
+    padding:5px;
   
 
   }
